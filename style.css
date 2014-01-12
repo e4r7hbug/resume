@@ -1,27 +1,30 @@
 * {
-   margin: 0;
-}
+  margin: 0; }
+
 body {
-   background-color: #FFF;
-   font-family: 'Ubuntu', sans-serif;
-}
-div#banner h1 {
-   text-align: left;
-   color: #111;
-   padding: .5em;
-   text-shadow: 2px 2px 2px #AAA;
-}
-div#banner div#splash {
-   background-color: #2ECC40;
-   height: 1em;
-   box-shadow: 0px 5px 5px -5px #111 inset;
-}
+  background-color: white;
+  font-family: 'Ubuntu', sans-serif;
+  color: #111111; }
+
 h1:before, h1:after {
-   color: #2ECC40;
-}
+  color: #2ecc40; }
+
 h1:before {
-   content: "\2039";
-}
+  content: "\2039"; }
+
 h1:after {
-   content: "\203A";
-}
+  content: "\203A"; }
+
+h2 {
+  padding: .5em;
+  margin: .5em;
+  text-transform: capitalize; }
+
+div#banner h1 {
+  text-align: left;
+  padding: .5em;
+  text-shadow: 2px 2px 2px #aaaaaa; }
+div#banner div#splash {
+  background-color: #2ecc40;
+  height: 1em;
+  box-shadow: 0px 5px 5px -5px #111111 inset; }
