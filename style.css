@@ -5,13 +5,13 @@ body {
    background-color: #FFF;
    font-family: 'Ubuntu', sans-serif;
 }
-div#banner div#text h1 {
+div#banner h1 {
    text-align: left;
    color: #111;
    padding: .5em;
    text-shadow: 2px 2px 2px #AAA;
 }
-div#splash {
+div#banner div#splash {
    background-color: #2ECC40;
    height: 1em;
    box-shadow: 0px 5px 5px -5px #111 inset;
