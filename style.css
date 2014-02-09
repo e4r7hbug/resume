@@ -1,24 +1,42 @@
 * {
-  margin: 0; }
+  margin: 0px; }
 
 body {
   background-color: white;
   font-family: 'Ubuntu', sans-serif;
   color: #111111; }
 
-h1:before, h1:after {
-  color: #2ecc40; }
-
-h1:before {
-  content: "\2039"; }
-
-h1:after {
-  content: "\203A"; }
+h1 {
+  font-size: 3em; }
+  h1:before, h1:after {
+    color: #2ecc40; }
+  h1:before {
+    content: "\2039"; }
+  h1:after {
+    content: "\203A"; }
 
 h2 {
+  font-size: 2em;
   padding: .5em;
   margin: .5em;
   text-transform: capitalize; }
+
+div#content {
+  padding: 1em; }
+  div#content h3 {
+    margin: .5em 0px;
+    font-weight: bold;
+    font-size: 1.1em; }
+  div#content ul {
+    list-style-type: none; }
+  div#content div.descriptor, div#content ul.bunch {
+    display: flex; }
+  div#content div.descriptor {
+    justify-content: space-between; }
+  div#content ul.bunch {
+    flex-flow: row wrap; }
+    div#content ul.bunch li:not(:last-of-type):after {
+      content: ","; }
 
 div#banner h1 {
   text-align: left;
