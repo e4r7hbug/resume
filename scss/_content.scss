@@ -1,0 +1,21 @@
+div#content {
+   ul {
+      list-style-type: none;
+   }
+   > ul > li {
+      font-weight: bold;
+      font-size: 1.1em;
+   }
+   div.descriptor, ul.bunch {
+      display: flex;
+   }
+   div.descriptor {
+      justify-content: space-between;
+   }
+   ul.bunch {
+      flex-flow: row wrap;
+      li:not(:last-of-type):after {
+         content: ",";
+      }
+   }
+}
