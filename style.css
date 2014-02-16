@@ -21,6 +21,15 @@ h2 {
   margin: .5em;
   text-transform: capitalize; }
 
+header h1 {
+  text-align: left;
+  padding: .5em;
+  text-shadow: 2px 2px 2px #aaaaaa; }
+header div#splash {
+  background-color: #2ecc40;
+  height: 1em;
+  box-shadow: 0px 5px 5px -5px #111111 inset; }
+
 div#content {
   padding: 1em; }
   div#content h3 {
@@ -37,12 +46,3 @@ div#content {
     flex-flow: row wrap; }
     div#content ul.bunch li:not(:last-of-type):after {
       content: ","; }
-
-div#banner h1 {
-  text-align: left;
-  padding: .5em;
-  text-shadow: 2px 2px 2px #aaaaaa; }
-div#banner div#splash {
-  background-color: #2ecc40;
-  height: 1em;
-  box-shadow: 0px 5px 5px -5px #111111 inset; }
