@@ -6,21 +6,3 @@ body {
    font-family: 'Ubuntu', sans-serif;
    color: $black;
 }
-h1 {
-   font-size: 3em;
-   &:before, &:after {
-      color: $green;
-   }
-   &:before {
-      content: "\2039";
-   }
-   &:after {
-      content: "\203A";
-   }
-}
-h2 {
-   font-size: 2em;
-   padding: .5em;
-   margin: .5em;
-   text-transform: capitalize;
-}

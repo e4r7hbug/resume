@@ -1,23 +1,29 @@
 div#content {
    padding: 1em;
-   h3 {
-      margin: .5em 0px;
+   h1 {
+      font-size: 2em;
+      padding: .5em;
+      margin: .5em;
+      text-transform: capitalize;
+   }
+   h2 {
+      margin: .25em 0px;
       font-weight: bold;
       font-size: 1.1em;
    }
    ul {
       list-style-type: none;
-   }
-   div.descriptor, ul.bunch {
-      display: flex;
+      &.bunch {
+         li {
+            display: inline;
+            &:not(:last-of-type):after {
+               content: ",";
+            }
+         }
+      }
    }
    div.descriptor {
+      display: flex;
       justify-content: space-between;
-   }
-   ul.bunch {
-      flex-flow: row wrap;
-      li:not(:last-of-type):after {
-         content: ",";
-      }
    }
 }

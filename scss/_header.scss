@@ -3,6 +3,16 @@ header {
       text-align: left;
       padding: .5em;
       text-shadow: 2px 2px 2px $gray;
+      font-size: 3em;
+      &:before, &:after {
+         color: $green;
+      }
+      &:before {
+         content: "\2039";
+      }
+      &:after {
+         content: "\203A";
+      }
    }
    div#splash {
       background-color: $green;
