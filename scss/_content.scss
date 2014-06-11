@@ -25,6 +25,9 @@ div#content {
             }
          }
       }
+      &.points {
+         list-style-type: circle;
+      }
    }
    div {
       &.descriptor {

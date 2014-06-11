@@ -43,6 +43,8 @@ div#content {
       display: inline; }
       div#content ul.bunch li:not(:last-of-type):after {
         content: ","; }
+    div#content ul.points {
+      list-style-type: circle; }
   div#content div.descriptor {
     display: flex;
     justify-content: space-between; }
