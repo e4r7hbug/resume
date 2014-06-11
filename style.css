@@ -23,6 +23,8 @@ header div#splash {
   box-shadow: 0px 5px 5px -5px #111111 inset; }
 
 div#content {
+  max-width: 1024px;
+  margin: auto;
   padding: 1em; }
   div#content h1 {
     font-size: 2em;
