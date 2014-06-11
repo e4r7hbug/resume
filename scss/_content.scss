@@ -24,8 +24,13 @@ div#content {
          }
       }
    }
-   div.descriptor {
-      display: flex;
-      justify-content: space-between;
+   div {
+      &.descriptor {
+         display: flex;
+         justify-content: space-between;
+         &:nth-of-type(even) {
+            font-style: italic;
+         }
+      }
    }
 }
