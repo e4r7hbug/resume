@@ -6,19 +6,28 @@ body {
   font-family: 'Ubuntu', sans-serif;
   color: #111111; }
 
-header h1 {
-  text-transform: capitalize;
-  text-align: center;
-  padding: .5em;
-  text-shadow: 2px 2px 2px #aaaaaa;
-  font-size: 3em; }
-  header h1:before, header h1:after {
-    color: #2ecc40; }
-  header h1:before {
-    content: "\2039"; }
-  header h1:after {
-    content: "\203A"; }
-header div#splash {
+header {
+  max-width: 1024px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  header h1 {
+    text-transform: capitalize;
+    padding: .5em 0px;
+    text-shadow: 2px 2px 2px #aaaaaa;
+    font-size: 3em;
+    display: block; }
+    header h1:before, header h1:after {
+      color: #2ecc40; }
+    header h1:before {
+      content: "\2039"; }
+    header h1:after {
+      content: "\203A"; }
+  header p {
+    text-align: right; }
+
+div#splash {
   background-color: #2ecc40;
   height: 1em;
   box-shadow: 0px 5px 5px -5px #111111 inset; }

@@ -1,10 +1,15 @@
 header {
+   max-width: $page-size;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
    h1 {
       text-transform: capitalize;
-      text-align: center;
-      padding: .5em;
+      padding: .5em 0px;
       text-shadow: 2px 2px 2px $gray;
       font-size: 3em;
+      display: block;
       &:before, &:after {
          color: $green;
       }
@@ -15,9 +20,12 @@ header {
          content: "\203A";
       }
    }
-   div#splash {
-      background-color: $green;
-      height: 1em;
-      box-shadow: 0px 5px 5px -5px $black inset;
+   p {
+      text-align: right;
    }
+}
+div#splash {
+   background-color: $green;
+   height: 1em;
+   box-shadow: 0px 5px 5px -5px $black inset;
 }
