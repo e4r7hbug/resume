@@ -29,17 +29,15 @@ div#content {
          list-style-type: circle;
       }
    }
-   div {
-      &.descriptor {
-         display: flex;
-         justify-content: space-between;
-         &:nth-of-type(even) {
-            font-style: italic;
-            font-size: .85em;
-         }
-         li:nth-of-type(even) {
-            text-align: right;
-         }
+   div.descriptor {
+      display: flex;
+      justify-content: space-between;
+      &:nth-of-type(even) {
+         font-style: italic;
+         font-size: .85em;
+      }
+      li:nth-of-type(even) {
+         text-align: right;
       }
    }
 }
