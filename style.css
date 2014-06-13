@@ -48,7 +48,8 @@ header {
       content: "\203A"; }
   header p {
     flex-grow: 1;
-    text-align: right; }
+    text-align: right;
+    line-height: 1.4em; }
 
 main h1 {
   font-size: 1.2em;
