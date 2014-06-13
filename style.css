@@ -21,8 +21,7 @@ body {
 a {
   color: #2ecc40;
   text-decoration: none;
-  transition: all .3s ease;
-  font-weight: bold; }
+  transition: all .3s ease; }
   a:hover {
     color: #15b327; }
 
