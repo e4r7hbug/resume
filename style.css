@@ -60,3 +60,5 @@ div#content {
     div#content div.descriptor:nth-of-type(even) {
       font-style: italic;
       font-size: .85em; }
+    div#content div.descriptor li:nth-of-type(even) {
+      text-align: right; }

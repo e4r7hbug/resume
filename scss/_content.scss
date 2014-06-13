@@ -37,6 +37,9 @@ div#content {
             font-style: italic;
             font-size: .85em;
          }
+         li:nth-of-type(even) {
+            text-align: right;
+         }
       }
    }
 }
