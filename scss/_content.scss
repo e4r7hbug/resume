@@ -1,14 +1,9 @@
 main {
    @extend %framing;
    h1 {
-      font-size: 2em;
-      padding: .5em;
-      margin: .5em;
-   }
-   h2 {
-      font-size: 1.1em;
+      font-size: 1.2em;
       font-weight: bolder;
-      margin: .25em 0px;
+      margin: .5em 0px .25em 0px;
    }
    ul {
       list-style-type: none;

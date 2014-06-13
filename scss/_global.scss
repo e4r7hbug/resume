@@ -19,3 +19,9 @@ a {
 h1, h2{
    text-transform: capitalize;
 }
+hr {
+   border: none;
+   background-color: $green;
+   height: .75em;
+   box-shadow: 0px 5px 5px -5px $black inset;
+}
