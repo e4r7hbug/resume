@@ -1,7 +1,5 @@
 header {
-   padding: .5em;
-   max-width: $page-size;
-   margin: auto;
+   @extend %framing;
    display: flex;
    justify-content: space-between;
    align-items: center;

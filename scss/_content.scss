@@ -1,7 +1,5 @@
 main {
-   max-width: $page-size;
-   margin: auto;
-   padding: 1em;
+   @extend %framing;
    h1 {
       font-size: 2em;
       padding: .5em;

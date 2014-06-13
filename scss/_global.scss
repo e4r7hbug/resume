@@ -6,3 +6,8 @@ body {
    font-family: 'Ubuntu', sans-serif;
    color: $black;
 }
+%framing {
+   max-width: 1024px;
+   margin: auto;
+   padding: 1em;
+}
