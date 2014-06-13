@@ -55,6 +55,8 @@ main h1 {
   font-size: 1.2em;
   font-weight: bolder;
   margin: .5em 0px .25em 0px; }
+  main h1:first-of-type {
+    margin: 0px 0px .25em 0px; }
 main ul {
   list-style-type: none; }
   main ul.bunch li {

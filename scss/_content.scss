@@ -3,6 +3,9 @@ main {
    h1 {
       font-size: 1.2em;
       font-weight: bolder;
+      &:first-of-type {
+         margin: 0px 0px .25em 0px;
+      }
       margin: .5em 0px .25em 0px;
    }
    ul {
