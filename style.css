@@ -11,9 +11,11 @@ header, main {
   margin: auto;
   padding: 1em; }
 
-header {
+header, main div {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; }
+
+header {
   align-items: center; }
   header h1 {
     text-transform: capitalize;
@@ -52,11 +54,8 @@ main ul {
       content: ","; }
   main ul.points {
     list-style-type: circle; }
-main div {
-  display: flex;
-  justify-content: space-between; }
-  main div:nth-of-type(even) {
-    font-style: italic;
-    font-size: .85em; }
-  main div li:nth-of-type(even) {
-    text-align: right; }
+main div:nth-of-type(even) {
+  font-style: italic;
+  font-size: .85em; }
+main div li:nth-of-type(even) {
+  text-align: right; }

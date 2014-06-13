@@ -28,8 +28,7 @@ main {
       }
    }
    div {
-      display: flex;
-      justify-content: space-between;
+      @extend %flex;
       &:nth-of-type(even) {
          font-style: italic;
          font-size: .85em;

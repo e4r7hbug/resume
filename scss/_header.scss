@@ -1,7 +1,6 @@
 header {
    @extend %framing;
-   display: flex;
-   justify-content: space-between;
+   @extend %flex;
    align-items: center;
    h1 {
       text-transform: capitalize;
