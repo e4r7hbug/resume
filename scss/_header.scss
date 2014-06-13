@@ -5,7 +5,6 @@ header {
    flex-wrap: wrap;
    h1 {
       @extend %shadow;
-      text-transform: capitalize;
       font-size: 3em;
       display: block;
       &:before, &:after {

@@ -26,11 +26,13 @@ a {
   a:hover {
     color: #15b327; }
 
+h1, h2 {
+  text-transform: capitalize; }
+
 header {
   align-items: center;
   flex-wrap: wrap; }
   header h1 {
-    text-transform: capitalize;
     font-size: 3em;
     display: block; }
     header h1:before, header h1:after {
@@ -56,8 +58,6 @@ main h2 {
   font-size: 1.1em;
   font-weight: bolder;
   margin: .25em 0px; }
-main h1, main h2 {
-  text-transform: capitalize; }
 main ul {
   list-style-type: none; }
   main ul.bunch li {
