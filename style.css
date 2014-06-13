@@ -32,33 +32,33 @@ div#splash {
   height: 1em;
   box-shadow: 0px 5px 5px -5px #111111 inset; }
 
-div#content {
+main {
   max-width: 1024px;
   margin: auto;
   padding: 1em; }
-  div#content h1 {
+  main h1 {
     font-size: 2em;
     padding: .5em;
     margin: .5em; }
-  div#content h2 {
+  main h2 {
     font-size: 1.1em;
     font-weight: bolder;
     margin: .25em 0px; }
-  div#content h1, div#content h2 {
+  main h1, main h2 {
     text-transform: capitalize; }
-  div#content ul {
+  main ul {
     list-style-type: none; }
-    div#content ul.bunch li {
+    main ul.bunch li {
       display: inline; }
-      div#content ul.bunch li:not(:last-of-type):after {
+      main ul.bunch li:not(:last-of-type):after {
         content: ","; }
-    div#content ul.points {
+    main ul.points {
       list-style-type: circle; }
-  div#content div.descriptor {
+  main div {
     display: flex;
     justify-content: space-between; }
-    div#content div.descriptor:nth-of-type(even) {
+    main div:nth-of-type(even) {
       font-style: italic;
       font-size: .85em; }
-    div#content div.descriptor li:nth-of-type(even) {
+    main div li:nth-of-type(even) {
       text-align: right; }

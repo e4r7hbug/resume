@@ -1,4 +1,4 @@
-div#content {
+main {
    max-width: $page-size;
    margin: auto;
    padding: 1em;
@@ -29,7 +29,7 @@ div#content {
          list-style-type: circle;
       }
    }
-   div.descriptor {
+   div {
       display: flex;
       justify-content: space-between;
       &:nth-of-type(even) {
