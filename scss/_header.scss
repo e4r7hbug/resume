@@ -1,4 +1,5 @@
 header {
+   padding: .5em;
    max-width: $page-size;
    margin: auto;
    display: flex;
@@ -6,7 +7,6 @@ header {
    align-items: center;
    h1 {
       text-transform: capitalize;
-      padding: .5em 0px;
       text-shadow: 2px 2px 2px $gray;
       font-size: 3em;
       display: block;
