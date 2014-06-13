@@ -4,8 +4,8 @@ header {
    align-items: center;
    flex-wrap: wrap;
    h1 {
+      @extend %shadow;
       text-transform: capitalize;
-      text-shadow: .05em .05em .05em $gray;
       font-size: 3em;
       display: block;
       &:before, &:after {

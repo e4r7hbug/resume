@@ -7,9 +7,9 @@ body {
    color: $black;
 }
 a {
+   @extend %shadow;
    color: $green;
    text-decoration: none;
-   text-shadow: .05em .05em .05em $gray;
    transition: all .3s ease;
    font-weight: bold;
    &:hover {

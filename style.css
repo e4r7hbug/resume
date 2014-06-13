@@ -7,6 +7,9 @@ header, main div {
   display: flex;
   justify-content: space-between; }
 
+a, header h1 {
+  text-shadow: 0.05em 0.05em 0.05em #aaaaaa; }
+
 * {
   margin: 0px; }
 
@@ -18,7 +21,6 @@ body {
 a {
   color: #2ecc40;
   text-decoration: none;
-  text-shadow: 0.05em 0.05em 0.05em #aaaaaa;
   transition: all .3s ease;
   font-weight: bold; }
   a:hover {
@@ -29,7 +31,6 @@ header {
   flex-wrap: wrap; }
   header h1 {
     text-transform: capitalize;
-    text-shadow: 0.05em 0.05em 0.05em #aaaaaa;
     font-size: 3em;
     display: block; }
     header h1:before, header h1:after {
