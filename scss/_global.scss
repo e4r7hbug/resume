@@ -6,6 +6,16 @@ body {
    font-family: 'Ubuntu', sans-serif;
    color: $black;
 }
+a {
+   color: $green;
+   text-decoration: none;
+   text-shadow: .05em .05em .05em $gray;
+   transition: all .3s ease;
+   font-weight: bold;
+   &:hover {
+      color: $green - 25;
+   }
+}
 %framing {
    max-width: 1024px;
    margin: auto;

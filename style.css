@@ -6,6 +6,15 @@ body {
   font-family: 'Ubuntu', sans-serif;
   color: #111111; }
 
+a {
+  color: #2ecc40;
+  text-decoration: none;
+  text-shadow: 0.05em 0.05em 0.05em #aaaaaa;
+  transition: all .3s ease;
+  font-weight: bold; }
+  a:hover {
+    color: #15b327; }
+
 header, main {
   max-width: 1024px;
   margin: auto;
@@ -16,10 +25,11 @@ header, main div {
   justify-content: space-between; }
 
 header {
-  align-items: center; }
+  align-items: center;
+  flex-wrap: wrap; }
   header h1 {
     text-transform: capitalize;
-    text-shadow: 2px 2px 2px #aaaaaa;
+    text-shadow: 0.05em 0.05em 0.05em #aaaaaa;
     font-size: 3em;
     display: block; }
     header h1:before, header h1:after {
@@ -29,6 +39,7 @@ header {
     header h1:after {
       content: "\203A"; }
   header p {
+    flex-grow: 1;
     text-align: right; }
 
 div#splash {
