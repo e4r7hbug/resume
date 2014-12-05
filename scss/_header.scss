@@ -1,8 +1,5 @@
 header {
-  @extend %framing;
   @extend %flex;
-  align-items: center;
-  flex-wrap: wrap;
   h1 {
     @extend %shadow;
     font-size: 3em;
@@ -18,7 +15,6 @@ header {
     }
   }
   p {
-    flex-grow: 1;
     text-align: right;
     line-height: 1.4em;
   }
