@@ -1,6 +1,7 @@
 header, main div {
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  align-items: center; }
   header > *, main div > * {
     flex-grow: 1; }
 
