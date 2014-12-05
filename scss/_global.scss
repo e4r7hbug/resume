@@ -17,12 +17,11 @@ body {
   }
 }
 a {
-  @extend %shadow;
-  color: $green;
+  color: $green - 25;
   text-decoration: none;
   transition: all .3s ease;
   &:hover {
-    color: $green - 25;
+    color: $green;
   }
 }
 h1, h2{
