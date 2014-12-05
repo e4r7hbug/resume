@@ -1,25 +1,25 @@
 header {
-   @extend %framing;
-   @extend %flex;
-   align-items: center;
-   flex-wrap: wrap;
-   h1 {
-      @extend %shadow;
-      font-size: 3em;
-      display: block;
-      &:before, &:after {
-         color: $green;
-      }
-      &:before {
-         content: "\2039";
-      }
-      &:after {
-         content: "\203A";
-      }
-   }
-   p {
-      flex-grow: 1;
-      text-align: right;
-      line-height: 1.4em;
-   }
+  @extend %framing;
+  @extend %flex;
+  align-items: center;
+  flex-wrap: wrap;
+  h1 {
+    @extend %shadow;
+    font-size: 3em;
+    display: block;
+    &:before, &:after {
+      color: $green;
+    }
+    &:before {
+      content: "\2039";
+    }
+    &:after {
+      content: "\203A";
+    }
+  }
+  p {
+    flex-grow: 1;
+    text-align: right;
+    line-height: 1.4em;
+  }
 }

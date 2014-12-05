@@ -1,35 +1,35 @@
 main {
-   @extend %framing;
-   h1 {
-      font-size: 1.2em;
-      font-weight: bolder;
-      &:first-of-type {
-         margin: 0px 0px .25em 0px;
+  @extend %framing;
+  h1 {
+    font-size: 1.2em;
+    font-weight: bolder;
+    &:first-of-type {
+      margin: 0px 0px .25em 0px;
+    }
+    margin: .5em 0px .25em 0px;
+  }
+  ul {
+    list-style-type: none;
+    &.bunch {
+      li {
+        display: inline;
+        &:not(:last-of-type):after {
+          content: ",";
+        }
       }
-      margin: .5em 0px .25em 0px;
-   }
-   ul {
-      list-style-type: none;
-      &.bunch {
-         li {
-            display: inline;
-            &:not(:last-of-type):after {
-               content: ",";
-            }
-         }
-      }
-      &.points {
-         list-style-type: circle;
-      }
-   }
-   div {
-      @extend %flex;
-      &:nth-of-type(even) {
-         font-style: italic;
-         font-size: .85em;
-      }
-      li:nth-of-type(even) {
-         text-align: right;
-      }
-   }
+    }
+    &.points {
+      list-style-type: circle;
+    }
+  }
+  div {
+    @extend %flex;
+    &:nth-of-type(even) {
+      font-style: italic;
+      font-size: .85em;
+    }
+    li:nth-of-type(even) {
+      text-align: right;
+    }
+  }
 }

@@ -1,26 +1,26 @@
 * {
-   margin: 0px;
+  margin: 0px;
 }
 body {
-   background-color: $white;
-   font-family: 'Ubuntu', sans-serif;
-   color: $black;
+  background-color: $white;
+  font-family: 'Ubuntu', sans-serif;
+  color: $black;
 }
 a {
-   @extend %shadow;
-   color: $green;
-   text-decoration: none;
-   transition: all .3s ease;
-   &:hover {
-      color: $green - 25;
-   }
+  @extend %shadow;
+  color: $green;
+  text-decoration: none;
+  transition: all .3s ease;
+  &:hover {
+    color: $green - 25;
+  }
 }
 h1, h2{
-   text-transform: capitalize;
+  text-transform: capitalize;
 }
 hr {
-   border: none;
-   background-color: $green;
-   height: .75em;
-   box-shadow: 0px 5px 5px -5px $black inset;
+  border: none;
+  background-color: $green;
+  height: .75em;
+  box-shadow: 0px 5px 5px -5px $black inset;
 }
