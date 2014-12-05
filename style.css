@@ -50,8 +50,7 @@ header h1 {
   header h1:after {
     content: "\203A"; }
 header p {
-  text-align: right;
-  line-height: 1.4em; }
+  text-align: right; }
 
 main h1 {
   font-size: 1.2em;
@@ -68,8 +67,7 @@ main ul {
   main ul.points {
     list-style-type: circle; }
 main div:nth-of-type(even) {
-  font-style: italic;
-  font-size: .85em; }
+  font-style: italic; }
 main div li:nth-of-type(even) {
   text-align: right; }
 
