@@ -1,8 +1,8 @@
-header, main div {
+header, main h4, main h5 {
   display: flex;
   flex-wrap: wrap;
   align-items: center; }
-  header > *, main div > * {
+  header > *, main h4 > *, main h5 > * {
     flex-grow: 1; }
 
 header h1 {
@@ -66,9 +66,14 @@ main ul {
       content: ","; }
   main ul.points {
     list-style-type: circle; }
-main div:nth-of-type(even) {
+main h4, main h5 {
+  font-size: 1em; }
+  main h4 p:nth-of-type(even), main h5 p:nth-of-type(even) {
+    text-align: right; }
+main h4 {
+  font-weight: bold; }
+main h5 {
+  font-weight: normal;
   font-style: italic; }
-main div li:nth-of-type(even) {
-  text-align: right; }
 
 /*# sourceMappingURL=style.css.map */

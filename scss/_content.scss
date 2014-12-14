@@ -21,13 +21,20 @@ main {
       list-style-type: circle;
     }
   }
-  div {
+  h4, h5 {
     @extend %flex;
-    &:nth-of-type(even) {
-      font-style: italic;
-    }
-    li:nth-of-type(even) {
+    font-size: 1em;
+    p:nth-of-type(even) {
       text-align: right;
+    }
+  }
+  h4 {
+    font-weight: bold;
+  }
+  h5 {
+    font: {
+      weight: normal;
+      style: italic;
     }
   }
 }
