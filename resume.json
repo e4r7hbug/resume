@@ -1,0 +1,292 @@
+{
+  "basics": {
+    "name": "Nate Tangsurat",
+    "label": "Engineer",
+    "picture": "",
+    "email": "e4r7hbug@gmail.com",
+    "phone": "(432) 363-4774",
+    "website": "https://e4r7hbug.github.io",
+    "summary": "I am a habitual researcher who loves discovering, tinkering with, implementing, and contributing to new technologies.",
+    "location": {
+      "address": "607 E White St Apt C11",
+      "postalCode": "IL 61820",
+      "city": "Champaign",
+      "countryCode": "US",
+      "region": "Illinois"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "e4r7hbug",
+        "url": "https://github.com/e4r7hbug"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Riverbed Technology, Inc.",
+      "position": "DevOps Engineer",
+      "location": "Champaign, IL",
+      "website": "http://www.riverbed.com/",
+      "startDate": "January 2015",
+      "endDate": "Present",
+      "summary": "All around diagnostics and troubleshooting.",
+      "highlights": [
+        "Deploy Containerized Icinga instance for monitoring",
+        "Determine necessary Server configurations and manage using SaltStack",
+        "Control SaltStack incompatible Servers with Python scripts using Fabric"
+      ]
+    },
+    {
+      "company": "Riverbed Technology, Inc.",
+      "position": "Laboratory Engineer",
+      "location": "Champaign, IL",
+      "website": "http://www.riverbed.com/",
+      "startDate": "April 2012",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [
+        "Laboratory administration of heterogeneous hardware and virtual machines",
+        "Resolving issues in Bugzilla for hardware upgrade requests, hardware failure, and software configurations",
+        "Administration of infrastructure and test environments including Linux, Mac, Solaris, and Windows systems",
+        "Research infrastructure technologies such as distributed storage, KVM Hypervisor, OpenStack, SaltStack, and Ubuntu MaaS"
+      ]
+    },
+    {
+      "company": "Riverbed Technology, Inc.",
+      "position": "QA Associate",
+      "location": "Champaign, IL",
+      "website": "http://www.riverbed.com/",
+      "startDate": "October 2011",
+      "endDate": "August 2014",
+      "summary": "Breaking protocols and Servers",
+      "highlights": [
+        "Testing of Microsoft Exchange Server, Active Directory, NFS, CIFS/SMB, and other protocols",
+        "Network diagnostics including routing table and switch configurations",
+        "Maintenance of documentation for internal development, processes, and tool usage"
+      ]
+    },
+    {
+      "company": "Illini Tech Center",
+      "position": "Certified Technician",
+      "location": "Champaign, IL",
+      "website": "",
+      "startDate": "May 2008",
+      "endDate": "August 2011",
+      "summary": "Fixing every computer problem possible",
+      "highlights": [
+        "Diagnosed malfunctioning computers and equipment",
+        "Repaired machines needing replacement parts based on damage assessments",
+        "Communicated with manufacturer to diagnose or order parts",
+        "Managed Service Assistants to ensure work efficiency and proper recommendations",
+        "Completed sales of hardware and software, and resolved software issues and questions"
+      ]
+    },
+    {
+      "company": "University of Illinois at Urbana-Champaign",
+      "position": "Peer Computer Consultant",
+      "location": "Urbana, IL",
+      "website": "http://www.housing.illinois.edu/technology/",
+      "startDate": "August 2006",
+      "endDate": "May 2008",
+      "summary": "Answering questions and debugging computers late into the night",
+      "highlights": [
+        "Assisted in closing network support tickets",
+        "Maintained two University Residence Housing computer laboratories",
+        "Solved hardware and software technical support queries such as application issues, failing components, and malware",
+        "Generated and routed support tickets when necessary"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Univerty of Illinois at Urbana-Champaign",
+      "area": "Anthropology",
+      "studyType": "Bachelor of Arts",
+      "startDate": "August 2005",
+      "endDate": "August 2011",
+      "gpa": "",
+      "courses": [
+        "ANTH 180 - The Archaeology of Death",
+        "ANTH 462 - Museum Theory and Practice",
+        "ANTH 477 - Pottery Analysis",
+        "CS 125 - Intro to Computer Science",
+        "CS 210 - Ethical & Professional Issues",
+        "CS 225 - Data Structure & Softw Prin",
+        "CS 232 - Computer Architecture II",
+        "CS 241 - System Programming",
+        "ECE 110 - Intro Elec & Comp Engrg",
+        "ECE 290 - Computer Engineering, I",
+        "HORT 361 - Small Fruits and Viticulture",
+        "PLPA 200 - Plants, Pathogens, and People"
+      ]
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Network",
+      "level": "Intermediate",
+      "keywords": [
+        "Cisco CatOS",
+        "Cisco IOS"
+      ]
+    },
+    {
+      "name": "GNU\\Linux",
+      "level": "Advanced",
+      "keywords": [
+        "CentOS",
+        "Debian",
+        "Red Hat Enterprise Linux",
+        "Scientific Linux",
+        "Ubuntu"
+      ]
+    },
+    {
+      "name": "Mac OS X",
+      "level": "Advanced",
+      "keywords": [
+        "10.10 Yosemite"
+      ]
+    },
+    {
+      "name": "Microsoft Windows",
+      "level": "Advanced",
+      "keywords": [
+        "XP",
+        "Vista",
+        "7",
+        "8/8.1",
+        "Server 2003",
+        "Server 2008R2",
+        "Server 2012",
+        "Server 2012 R2"
+      ]
+    },
+    {
+      "name": "Mobile",
+      "level": "Advanced",
+      "keywords": [
+        "Android",
+        "iOS"
+      ]
+    },
+    {
+      "name": "Network Attached Storage",
+      "level": "Intermediate",
+      "keywords": [
+        "EMC",
+        "FreeNAS",
+        "NetApp",
+        "OmniOS",
+        "OpenIndiana",
+        "OpenSolaris"
+      ]
+    },
+    {
+      "name": "Hypervisors",
+      "level": "Advanced",
+      "keywords": [
+        "KVM",
+        "Oracle VM VirtualBox",
+        "Parallels",
+        "VMware ESXi",
+        "VMware Fusion",
+        "VMware Player",
+        "VMware Workstation"
+      ]
+    },
+    {
+      "name": "Software",
+      "level": "",
+      "keywords": [
+        "Bugzilla",
+        "Docker Containers",
+        "GlusterFS",
+        "Git",
+        "GitLab",
+        "LVM",
+        "MooseFS",
+        "MySQL",
+        "Read the Docs",
+        "SaltStack",
+        "Sphinx",
+        "Subversion",
+        "Ubuntu MaaS",
+        "Vim",
+        "ZFS"
+      ]
+    },
+    {
+      "name": "Programming",
+      "level": "Intermediate",
+      "keywords": [
+        "C++",
+        "CSS",
+        "HTML",
+        "Java",
+        "Perl 5",
+        "PowerShell",
+        "Python 2.7",
+        "SASS",
+        "Shell script",
+        "vSphere PowerCLI"
+      ]
+    },
+    {
+      "name": "Protocols",
+      "level": "Intermediate",
+      "keywords": [
+        "CIFS/SMB",
+        "DHCP",
+        "DNS",
+        "HTTP",
+        "NFS",
+        "TCP"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Thai",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Hilarious"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Activities",
+      "keywords": [
+        "Bicycling",
+        "Longboard skateboarding",
+        "Running"
+      ]
+    },
+    {
+      "name": "Crafts",
+      "keywords": [
+        "Crocheting",
+        "Cross stitching",
+        "Knitting"
+      ]
+    },
+    {
+      "name": "Microcontrollers",
+      "keywords": [
+          "BeagleBone Black",
+          "Raspberry Pi"
+      ]
+    }
+  ],
+  "references": []
+}
