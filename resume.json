@@ -127,14 +127,6 @@
   "publications": [],
   "skills": [
     {
-      "name": "Network",
-      "level": "Intermediate",
-      "keywords": [
-        "Cisco CatOS",
-        "Cisco IOS"
-      ]
-    },
-    {
       "name": "GNU\\Linux",
       "level": "Advanced",
       "keywords": [
@@ -143,13 +135,6 @@
         "Red Hat Enterprise Linux",
         "Scientific Linux",
         "Ubuntu"
-      ]
-    },
-    {
-      "name": "Mac OS X",
-      "level": "Advanced",
-      "keywords": [
-        "10.10 Yosemite"
       ]
     },
     {
@@ -164,6 +149,13 @@
         "Server 2008R2",
         "Server 2012",
         "Server 2012 R2"
+      ]
+    },
+    {
+      "name": "Mac OS X",
+      "level": "Advanced",
+      "keywords": [
+        "10.10 Yosemite"
       ]
     },
     {
@@ -197,6 +189,26 @@
         "VMware Fusion",
         "VMware Player",
         "VMware Workstation"
+      ]
+    },
+    {
+      "name": "Network",
+      "level": "Intermediate",
+      "keywords": [
+        "Cisco CatOS",
+        "Cisco IOS"
+      ]
+    },
+    {
+      "name": "Protocols",
+      "level": "Intermediate",
+      "keywords": [
+        "CIFS/SMB",
+        "DHCP",
+        "DNS",
+        "HTTP",
+        "NFS",
+        "TCP"
       ]
     },
     {
@@ -234,18 +246,6 @@
         "SASS",
         "Shell script",
         "vSphere PowerCLI"
-      ]
-    },
-    {
-      "name": "Protocols",
-      "level": "Intermediate",
-      "keywords": [
-        "CIFS/SMB",
-        "DHCP",
-        "DNS",
-        "HTTP",
-        "NFS",
-        "TCP"
       ]
     }
   ],
