@@ -44,7 +44,7 @@
       "website": "http://www.riverbed.com/",
       "startDate": "2012-04-01",
       "endDate": "2015-06-01",
-      "summary": "",
+      "summary": "Keep the machines running.",
       "highlights": [
         "Laboratory administration of heterogeneous hardware and virtual machines",
         "Resolving issues in Bugzilla for hardware upgrade requests, hardware failure, and software configurations",
@@ -59,7 +59,7 @@
       "website": "http://www.riverbed.com/",
       "startDate": "2011-10-31",
       "endDate": "2014-08-01",
-      "summary": "Breaking protocols and Servers",
+      "summary": "Breaking protocols and Servers.",
       "highlights": [
         "Testing of Microsoft Exchange Server, Active Directory, NFS, CIFS/SMB, and other protocols",
         "Network diagnostics including routing table and switch configurations",
@@ -73,7 +73,7 @@
       "website": "",
       "startDate": "2008-03-01",
       "endDate": "2011-08-01",
-      "summary": "Fixing every computer problem possible",
+      "summary": "Fixing every computer problem possible.",
       "highlights": [
         "Diagnosed malfunctioning computers and equipment",
         "Repaired machines needing replacement parts based on damage assessments",
@@ -89,7 +89,7 @@
       "website": "http://www.housing.illinois.edu/technology/",
       "startDate": "2006-08-21",
       "endDate": "2008-05-03",
-      "summary": "Answering questions and debugging computers late into the night",
+      "summary": "Answering questions and debugging computers late into the night.",
       "highlights": [
         "Assisted in closing network support tickets",
         "Maintained two University Residence Housing computer laboratories",
