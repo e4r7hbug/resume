@@ -32,6 +32,7 @@
       "endDate": "2015-06-01",
       "summary": "All around diagnostics and troubleshooting.",
       "highlights": [
+        "Implemented Python CLI using Click for automating common tasks",
         "Deploy Containerized Icinga instance for monitoring",
         "Determine necessary Server configurations and manage using SaltStack",
         "Control SaltStack incompatible Servers with Python scripts using Fabric"
