@@ -71,7 +71,7 @@
       "position": "Certified Technician",
       "location": "Champaign, IL",
       "website": "",
-      "startDate": "2008-03-01",
+      "startDate": "2008-05-01",
       "endDate": "2011-08-01",
       "summary": "Fixing every computer problem possible.",
       "highlights": [
@@ -101,7 +101,7 @@
   "volunteer": [],
   "education": [
     {
-      "institution": "Univerty of Illinois at Urbana-Champaign",
+      "institution": "University of Illinois at Urbana-Champaign",
       "area": "Anthropology",
       "studyType": "Bachelor of Arts",
       "startDate": "2005-08-21",
@@ -213,7 +213,7 @@
     },
     {
       "name": "Software",
-      "level": "",
+      "level": "Intermediate",
       "keywords": [
         "Bugzilla",
         "Docker Containers",
