@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Nate Tangsurat's Resume</title>
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>{{ basics.name}}</h1>
+    <p>
+      {{ basics.phone }}<br>
+      <a href="mailto:{{ basics.email }}">{{ basics.email }}</a><br>
+      <a href="{{ basics.website }}">{{ basics.website|replace('https://', '') }}</a>
+    </p>
+  </header>
+  <hr>
+  <main>
+    <h1>summary</h1>
+    <ul>
+      <li>{{ basics.summary }}</li>
+    </ul>
+    <h1>education</h1>
+    <ul>
+    {%- for school in education %}
+      <h4>
+        <p>{{ school.institution }}</p>
+        <p>{{ school.startDate|date }} - {{ school.endDate|date }}</p>
+      </h4>
+      <h5>
+        <p>{{ school.studyType }} in {{ school.area }}</p>
+      </h5>
+    {%- endfor %}
+    </ul>
+    <h1>experience</h1>
+    <ul>
+    {%- for job in work %}
+      <li>
+        <h4>
+          <p>{{ job.company }}</p>
+          <p>{{ job.location }}</p>
+        </h4>
+        <h5>
+          <p>{{ job.position }}</p>
+          <p>{{ job.startDate|date }} - {{ job.endDate|date }}</p>
+        </h5>
+        <ul class="points">
+        {%- for detail in job.highlights %}
+          <li>{{ detail }}</li>
+        {%- endfor %}
+        </ul>
+      </li>
+    {%- endfor %}
+    </ul>
+    <h1>skills</h1>
+    <ul>
+    {%- for skill in skills %}
+      <li>
+        <h4>{{ skill.name }} ({{ skill.level }})</h4>
+        <ul class="bunch">
+        {%- for keyword in skill.keywords %}
+          <li>{{ keyword }}</li>
+        {%- endfor %}
+        </ul>
+      </li>
+    {%- endfor %}
+    </ul>
+  </main>
+</body>
+</html>
