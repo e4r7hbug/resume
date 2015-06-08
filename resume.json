@@ -33,9 +33,9 @@
       "summary": "All around diagnostics and troubleshooting.",
       "highlights": [
         "Implemented Python CLI using Click for automating common tasks",
-        "Deploy Containerized Icinga instance for monitoring",
-        "Determine necessary Server configurations and manage using SaltStack",
-        "Control SaltStack incompatible Servers with Python scripts using Fabric"
+        "Deployed containerized Icinga instance for monitoring",
+        "Determined necessary Server configurations and managed using SaltStack",
+        "Controlled SaltStack incompatible Servers with Python scripts using Fabric"
       ]
     },
     {
@@ -48,9 +48,9 @@
       "summary": "Keep the machines running.",
       "highlights": [
         "Laboratory administration of heterogeneous hardware and virtual machines",
-        "Resolving issues in Bugzilla for hardware upgrade requests, hardware failure, and software configurations",
-        "Administration of infrastructure and test environments including Linux, Mac, Solaris, and Windows systems",
-        "Research infrastructure technologies such as distributed storage, KVM Hypervisor, OpenStack, SaltStack, and Ubuntu MaaS"
+        "Resolved issues in Bugzilla for hardware upgrade requests, hardware failure, and software configurations",
+        "Administered infrastructure and test environments including Linux, Mac, Solaris, and Windows systems",
+        "Researched infrastructure technologies such as distributed storage, KVM Hypervisor, OpenStack, SaltStack, and Ubuntu MaaS"
       ]
     },
     {
@@ -62,9 +62,9 @@
       "endDate": "2014-08-01",
       "summary": "Breaking protocols and Servers.",
       "highlights": [
-        "Testing of Microsoft Exchange Server, Active Directory, NFS, CIFS/SMB, and other protocols",
-        "Network diagnostics including routing table and switch configurations",
-        "Maintenance of documentation for internal development, processes, and tool usage"
+        "Tested Microsoft Exchange Server, Active Directory, NFS, CIFS/SMB, and other protocols",
+        "Diagnosed network including routing table and switch configurations",
+        "Maintained documentation for internal development, processes, and tool usage"
       ]
     },
     {
