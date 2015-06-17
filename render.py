@@ -5,10 +5,9 @@ import os
 import dateutil.parser
 import jinja2
 
+import click
+
 HOST_PATH = os.getcwd()
-TEMPLATE_FILE = 'resume.j2'
-JSON_RESUME = os.path.join(HOST_PATH, 'resume.json')
-HTML_OUTPUT_FILE = os.path.join(HOST_PATH, 'test.html')
 
 
 def _date_format(date):
@@ -17,18 +16,27 @@ def _date_format(date):
     return parsed.strftime('%B %Y')
 
 
-def main():
+@click.command()
+@click.option('-o', '--output',
+              type=click.File('wb'),
+              default='test.html',
+              help='Output filename')
+@click.option('-r', '--resume',
+              type=click.File('rb'),
+              default='resume.json',
+              help='JSON resume file')
+@click.option('-t', '--template',
+              default='resume.j2',
+              help='Jinja2 template file')
+def main(output, resume, template):
     environment = jinja2.Environment(
         loader=jinja2.FileSystemLoader([HOST_PATH]))
 
     environment.filters['date'] = _date_format
 
-    template = environment.get_template(TEMPLATE_FILE)
+    template = environment.get_template(template)
 
-    with open(JSON_RESUME) as json_handle:
-        with open(HTML_OUTPUT_FILE, 'w') as output_handle:
-            output_handle.write(
-                template.render(json.loads(json_handle.read())))
+    output.write(template.render(json.loads(resume.read())))
 
 
 if __name__ == '__main__':
