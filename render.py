@@ -7,8 +7,6 @@ import jinja2
 
 import click
 
-HOST_PATH = os.getcwd()
-
 
 def _date_format(date):
     """Format ISO date into Month YEAR."""
@@ -30,7 +28,7 @@ def _date_format(date):
               help='Jinja2 template file')
 def main(output, resume, template):
     environment = jinja2.Environment(
-        loader=jinja2.FileSystemLoader([HOST_PATH]))
+        loader=jinja2.FileSystemLoader(os.getcwd()))
 
     environment.filters['date'] = _date_format
 
