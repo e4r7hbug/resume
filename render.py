@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 import json
 import os
-import pprint
 
 import dateutil.parser
 import jinja2
