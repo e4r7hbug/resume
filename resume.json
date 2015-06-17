@@ -218,9 +218,10 @@
       "keywords": [
         "Bugzilla",
         "Docker Containers",
-        "GlusterFS",
         "Git",
         "GitLab",
+        "GlusterFS",
+        "Jenkins",
         "LVM",
         "MooseFS",
         "MySQL",
