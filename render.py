@@ -42,7 +42,8 @@ def main(output, resume, template):
     template = environment.get_template(template)
 
     json_dict = json.loads(resume.read().decode())
-    output.write(template.render(json_dict))
+    rendered = template.render(json_dict)
+    output.write(rendered.encode())
 
 
 if __name__ == '__main__':
