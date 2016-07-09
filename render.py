@@ -10,8 +10,15 @@ import click
 
 def _date_format(date):
     """Format ISO date into Month YEAR."""
-    parsed = dateutil.parser.parse(date)
-    return parsed.strftime('%B %Y')
+    date_value = ''
+
+    try:
+        parsed = dateutil.parser.parse(date)
+        date_value = parsed.strftime('%B %Y')
+    except ValueError:
+        date_value = date
+
+    return date_value
 
 
 @click.command()
