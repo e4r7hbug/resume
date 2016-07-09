@@ -34,7 +34,8 @@ def main(output, resume, template):
 
     template = environment.get_template(template)
 
-    output.write(template.render(json.loads(resume.read())))
+    json_dict = json.loads(resume.read().decode())
+    output.write(template.render(json_dict))
 
 
 if __name__ == '__main__':
