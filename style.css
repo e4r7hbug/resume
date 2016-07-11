@@ -65,7 +65,8 @@ main ul {
     main ul.bunch li:not(:last-of-type):after {
       content: ","; }
   main ul.points {
-    list-style-type: circle; }
+    list-style-type: circle;
+    padding-bottom: .5em; }
 main h4, main h5 {
   font-size: 1em; }
   main h4 p:nth-of-type(even), main h5 p:nth-of-type(even) {
