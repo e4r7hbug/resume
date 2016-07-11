@@ -231,7 +231,6 @@
       "name": "Software",
       "level": "Intermediate",
       "keywords": [
-        "Bugzilla",
         "Docker Containers",
         "Git",
         "GitLab",
@@ -243,10 +242,8 @@
         "Read the Docs",
         "SaltStack",
         "Sphinx",
-        "Subversion",
         "Ubuntu MaaS",
-        "Vim",
-        "ZFS"
+        "Vim"
       ]
     },
     {
