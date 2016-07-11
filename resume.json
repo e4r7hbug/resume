@@ -146,10 +146,8 @@
       "name": "GNU\\Linux",
       "level": "Advanced",
       "keywords": [
-        "CentOS",
         "Debian",
-        "Red Hat Enterprise Linux",
-        "Scientific Linux",
+        "Fedora",
         "Ubuntu"
       ]
     },
