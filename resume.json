@@ -231,6 +231,7 @@
       "name": "Software",
       "level": "Intermediate",
       "keywords": [
+        "Ansible",
         "Docker Containers",
         "Git",
         "GitLab",
@@ -242,6 +243,7 @@
         "Read the Docs",
         "SaltStack",
         "Sphinx",
+        "Terraform",
         "Ubuntu MaaS",
         "Vim"
       ]
