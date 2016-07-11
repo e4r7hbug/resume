@@ -256,13 +256,9 @@
         "C++",
         "CSS",
         "HTML",
-        "Java",
-        "Perl 5",
-        "PowerShell",
         "Python 2.7",
         "SASS",
-        "Shell script",
-        "vSphere PowerCLI"
+        "Shell script"
       ]
     }
   ],
