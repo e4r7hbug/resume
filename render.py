@@ -2,10 +2,9 @@
 import json
 import os
 
+import click
 import dateutil.parser
 import jinja2
-
-import click
 
 
 def _date_format(date):
@@ -22,20 +21,11 @@ def _date_format(date):
 
 
 @click.command()
-@click.option('-o', '--output',
-              type=click.File('wb'),
-              default='test.html',
-              help='Output filename')
-@click.option('-r', '--resume',
-              type=click.File('rb'),
-              default='resume.json',
-              help='JSON resume file')
-@click.option('-t', '--template',
-              default='resume.j2',
-              help='Jinja2 template file')
+@click.option('-o', '--output', type=click.File('wb'), default='test.html', help='Output filename')
+@click.option('-r', '--resume', type=click.File('rb'), default='resume.json', help='JSON resume file')
+@click.option('-t', '--template', default='resume.j2', help='Jinja2 template file')
 def main(output, resume, template):
-    environment = jinja2.Environment(
-        loader=jinja2.FileSystemLoader(os.getcwd()))
+    environment = jinja2.Environment(loader=jinja2.FileSystemLoader(os.getcwd()))
 
     environment.filters['date'] = _date_format
 
