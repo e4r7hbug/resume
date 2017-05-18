@@ -32,8 +32,8 @@
       "endDate": "Current",
       "summary": "The leading provider of inflight internet and entertainment.",
       "highlights": [
-        "Prototyped CLI interface to `netflix/asgard` cloud application deployment tool",
-        "Collaborated on Python to REST API for `netflix/asgard`, opensourced as `gogoit/pyasgard`",
+        "Contributed to modernizing the embedded system build platform using Jenkins Pipelines",
+        "Collaborated on Python application for configuring Spinnaker applications and AWS infrastructure, https://github.com/gogoair/foremast",
         "Maintained and provided training for Git SCM and GitLab EE",
         "Established build and deployment environments in AWS using boto3, Terraform, and automation scripts"
       ]
