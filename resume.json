@@ -33,7 +33,7 @@
       "summary": "The leading provider of inflight internet and entertainment.",
       "highlights": [
         "Contributed to modernizing the embedded system build platform using Jenkins Pipelines",
-        "Collaborated on Python application for configuring Spinnaker applications and AWS infrastructure, https://github.com/gogoair/foremast",
+        "Collaborated on Python application (<a href=\"https://github.com/gogoair/foremast\">Foremast</a>) for configuring Spinnaker applications and AWS infrastructure",
         "Maintained and provided training for Git SCM and GitLab EE",
         "Established build and deployment environments in AWS using boto3, Terraform, and automation scripts"
       ]
