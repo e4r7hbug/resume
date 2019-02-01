@@ -24,12 +24,27 @@
   },
   "work": [
     {
+      "company": "Upgrade",
+      "position": "DevOps Engineer",
+      "location": "San Francisco, CA",
+      "website": "https://www.upgrade.com",
+      "startDate": "2018-04-09",
+      "endDate": "Current",
+      "summary": "Affordable online personal loans.",
+      "highlights": [
+	"Managed Spinnaker installation on Kubernetes with Halyard",
+	"Created Python application (<a href=\"https://github.com/e4r7hbug/reforemast\">Reforemast</a>) for imperative in-place updating of Spinnaker Pipeline configurations",
+	"Promoted automation of daily tasks through iterative documentation and scripting",
+	"Maintained AWS infrastructure using Terraform"
+      ]
+    },
+    {
       "company": "Gogo",
       "position": "DevOps Engineer",
       "location": "Chicago, IL",
       "website": "https://www.gogoair.com/",
       "startDate": "2015-08-24",
-      "endDate": "Current",
+      "endDate": "2018-03-30",
       "summary": "The leading provider of inflight internet and entertainment.",
       "highlights": [
         "Contributed to modernizing the embedded system build platform using Jenkins Pipelines",
