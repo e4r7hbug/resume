@@ -29,6 +29,7 @@
       "endDate": "Current",
       "summary": "Affordable online personal loans.",
       "highlights": [
+        "Developed Python 3 Modules for interfacing with Metro 2® formatted files to apply corrections",
         "Managed Spinnaker installation on Kubernetes with Halyard",
         "Created Python application (<a href=\"https://github.com/e4r7hbug/reforemast\">Reforemast</a>) for imperative in-place updating of Spinnaker Pipeline configurations",
         "Promoted automation of daily tasks through iterative documentation and scripting",
