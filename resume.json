@@ -153,6 +153,13 @@
   "awards": [],
   "publications": [],
   "skills": [{
+      "name": "Cloud Providers",
+      "level": "Advanced",
+      "keywords": [
+        "Amazon Web Services (AWS)"
+      ]
+    },
+    {
       "name": "GNU\\Linux",
       "level": "Advanced",
       "keywords": [
