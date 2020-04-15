@@ -60,6 +60,8 @@ main h1 {
     margin: 0px 0px .25em 0px; }
 main ul {
   list-style-type: none; }
+  main ul li {
+    page-break-inside: avoid; }
   main ul.bunch li {
     display: inline; }
     main ul.bunch li:not(:last-of-type):after {

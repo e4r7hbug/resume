@@ -9,6 +9,9 @@ main {
   }
   ul {
     list-style-type: none;
+    li {
+      page-break-inside: avoid;
+    }
     &.bunch {
       li {
         display: inline;
