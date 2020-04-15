@@ -16,4 +16,21 @@ pipenv install
 pipenv shell
 
 (resume) ./render.py
+# Open test.html with web browser
+```
+
+## Updating
+
+If everything from the test render looks good, move `test.html`
+over `index.html`:
+
+```bash
+(resume) ./render.py
+(resume) mv test.html index.html
+```
+
+Or re-render with the output file set.
+
+```bash
+(resume) ./render.py --output index.html
 ```
