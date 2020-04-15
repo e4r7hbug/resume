@@ -1,3 +1,0 @@
-click
-dateutils
-jinja2
