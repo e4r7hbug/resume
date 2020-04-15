@@ -23,6 +23,12 @@ pipenv shell
 # Open test.html with web browser
 ```
 
+Also use [Sass](https://sass-lang.com/) to render the CSS.
+
+```bash
+sass scss/style.scss:style.css
+```
+
 ## Updating
 
 If everything from the test render looks good, move `test.html`
