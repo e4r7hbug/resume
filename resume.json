@@ -169,6 +169,19 @@
       ]
     },
     {
+      "name": "Hypervisors",
+      "level": "Advanced",
+      "keywords": [
+        "KVM",
+        "Oracle VM VirtualBox",
+        "Parallels",
+        "VMware ESXi",
+        "VMware Fusion",
+        "VMware Player",
+        "VMware Workstation"
+      ]
+    },
+    {
       "name": "macOS",
       "level": "Advanced",
       "keywords": [
@@ -184,24 +197,23 @@
       ]
     },
     {
-      "name": "Hypervisors",
-      "level": "Advanced",
-      "keywords": [
-        "KVM",
-        "Oracle VM VirtualBox",
-        "Parallels",
-        "VMware ESXi",
-        "VMware Fusion",
-        "VMware Player",
-        "VMware Workstation"
-      ]
-    },
-    {
       "name": "Network",
       "level": "Intermediate",
       "keywords": [
         "Cisco CatOS",
         "Cisco IOS"
+      ]
+    },
+    {
+      "name": "Programming",
+      "level": "Intermediate",
+      "keywords": [
+        "C++",
+        "CSS",
+        "HTML",
+        "Python 3.6",
+        "SASS",
+        "Shell script"
       ]
     },
     {
@@ -240,18 +252,6 @@
         "Terraform",
         "Ubuntu MaaS",
         "Vim"
-      ]
-    },
-    {
-      "name": "Programming",
-      "level": "Intermediate",
-      "keywords": [
-        "C++",
-        "CSS",
-        "HTML",
-        "Python 3.6",
-        "SASS",
-        "Shell script"
       ]
     }
   ],
