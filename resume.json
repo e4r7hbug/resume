@@ -177,18 +177,6 @@
       ]
     },
     {
-      "name": "Network Attached Storage",
-      "level": "Intermediate",
-      "keywords": [
-        "EMC",
-        "FreeNAS",
-        "NetApp",
-        "OmniOS",
-        "OpenIndiana",
-        "OpenSolaris"
-      ]
-    },
-    {
       "name": "Hypervisors",
       "level": "Advanced",
       "keywords": [
