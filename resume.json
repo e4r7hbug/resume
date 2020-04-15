@@ -14,16 +14,13 @@
       "countryCode": "US",
       "region": "Illinois"
     },
-    "profiles": [
-      {
-        "network": "GitHub",
-        "username": "e4r7hbug",
-        "url": "https://github.com/e4r7hbug"
-      }
-    ]
+    "profiles": [{
+      "network": "GitHub",
+      "username": "e4r7hbug",
+      "url": "https://github.com/e4r7hbug"
+    }]
   },
-  "work": [
-    {
+  "work": [{
       "company": "Upgrade",
       "position": "DevOps Engineer",
       "location": "San Francisco, CA",
@@ -32,10 +29,10 @@
       "endDate": "Current",
       "summary": "Affordable online personal loans.",
       "highlights": [
-	"Managed Spinnaker installation on Kubernetes with Halyard",
-	"Created Python application (<a href=\"https://github.com/e4r7hbug/reforemast\">Reforemast</a>) for imperative in-place updating of Spinnaker Pipeline configurations",
-	"Promoted automation of daily tasks through iterative documentation and scripting",
-	"Maintained AWS infrastructure using Terraform"
+        "Managed Spinnaker installation on Kubernetes with Halyard",
+        "Created Python application (<a href=\"https://github.com/e4r7hbug/reforemast\">Reforemast</a>) for imperative in-place updating of Spinnaker Pipeline configurations",
+        "Promoted automation of daily tasks through iterative documentation and scripting",
+        "Maintained AWS infrastructure using Terraform"
       ]
     },
     {
@@ -130,34 +127,31 @@
     }
   ],
   "volunteer": [],
-  "education": [
-    {
-      "institution": "University of Illinois at Urbana-Champaign",
-      "area": "Anthropology",
-      "studyType": "Bachelor of Arts",
-      "startDate": "2005-08-21",
-      "endDate": "2011-08-01",
-      "gpa": "",
-      "courses": [
-        "ANTH 180 - The Archaeology of Death",
-        "ANTH 462 - Museum Theory and Practice",
-        "ANTH 477 - Pottery Analysis",
-        "CS 125 - Intro to Computer Science",
-        "CS 210 - Ethical & Professional Issues",
-        "CS 225 - Data Structure & Softw Prin",
-        "CS 232 - Computer Architecture II",
-        "CS 241 - System Programming",
-        "ECE 110 - Intro Elec & Comp Engrg",
-        "ECE 290 - Computer Engineering, I",
-        "HORT 361 - Small Fruits and Viticulture",
-        "PLPA 200 - Plants, Pathogens, and People"
-      ]
-    }
-  ],
+  "education": [{
+    "institution": "University of Illinois at Urbana-Champaign",
+    "area": "Anthropology",
+    "studyType": "Bachelor of Arts",
+    "startDate": "2005-08-21",
+    "endDate": "2011-08-01",
+    "gpa": "",
+    "courses": [
+      "ANTH 180 - The Archaeology of Death",
+      "ANTH 462 - Museum Theory and Practice",
+      "ANTH 477 - Pottery Analysis",
+      "CS 125 - Intro to Computer Science",
+      "CS 210 - Ethical & Professional Issues",
+      "CS 225 - Data Structure & Softw Prin",
+      "CS 232 - Computer Architecture II",
+      "CS 241 - System Programming",
+      "ECE 110 - Intro Elec & Comp Engrg",
+      "ECE 290 - Computer Engineering, I",
+      "HORT 361 - Small Fruits and Viticulture",
+      "PLPA 200 - Plants, Pathogens, and People"
+    ]
+  }],
   "awards": [],
   "publications": [],
-  "skills": [
-    {
+  "skills": [{
       "name": "GNU\\Linux",
       "level": "Advanced",
       "keywords": [
@@ -271,8 +265,7 @@
       ]
     }
   ],
-  "languages": [
-    {
+  "languages": [{
       "language": "English",
       "fluency": "Native speaker"
     },
@@ -285,8 +278,7 @@
       "fluency": "Conversational"
     }
   ],
-  "interests": [
-    {
+  "interests": [{
       "name": "Activities",
       "keywords": [
         "Bicycling",
@@ -319,9 +311,9 @@
     {
       "name": "Microcontrollers",
       "keywords": [
-          "Adafruit GEMMA",
-          "BeagleBone Black",
-          "Raspberry Pi"
+        "Adafruit GEMMA",
+        "BeagleBone Black",
+        "Raspberry Pi"
       ]
     }
   ],
