@@ -17,7 +17,7 @@ body {
   }
 }
 a {
-  color: $green - 25;
+  color: saturate(darken( $green, 9.8%), 16%);
   text-decoration: none;
   transition: all .3s ease;
   &:hover {
