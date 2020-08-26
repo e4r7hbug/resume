@@ -30,10 +30,12 @@
       "summary": "Affordable online personal loans.",
       "highlights": [
         "Developed Python 3 Modules for interfacing with Metro 2® formatted files to apply corrections",
-        "Managed Spinnaker installation on Kubernetes with Halyard",
+        "Enhanced Python 3 code for sending AWS CloudTrail events to Open Policy Agent for auditing using asynco to increase throughput",
+        "Constructed Kubernetes CronJobs for data replication from vendors to AWS S3 storage",
         "Created Python application (<a href=\"https://github.com/e4r7hbug/reforemast\">Reforemast</a>) for imperative in-place updating of Spinnaker Pipeline configurations",
+        "Maintained financial loan servicing system ensuring 24 hour uptime, responding to alerts, and identifying improvements",
         "Promoted automation of daily tasks through iterative documentation and scripting",
-        "Maintained AWS infrastructure using Terraform"
+        "Managed AWS infrastructure using Terraform"
       ]
     },
     {
